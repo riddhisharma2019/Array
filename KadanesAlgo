@@ -1,0 +1,21 @@
+public class Kadanes(){
+
+public static int display(int a[]){
+int max=a[0];
+int currSum=0;
+
+for(int i=0;i<arr.length-1;i++){
+
+currSum = currSum + a[0];
+if(currSum>max){
+max=currSum;
+}
+if(currSum<0){
+ currSum=0;
+}
+
+}
+
+return maX;
+}
+}
