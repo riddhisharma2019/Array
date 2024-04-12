@@ -17,4 +17,5 @@ public static int missingNo(int a[], int n){
         int ans = missingNumber(a, N);
         System.out.println("The missing number is: " + ans);
     }
+
 }
